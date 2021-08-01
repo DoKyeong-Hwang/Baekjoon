@@ -1,4 +1,4 @@
-package BOJ_Sol1000;
+package BOJ_Sol1001;
 import java.util.Scanner;
 
 public class Main {
@@ -7,6 +7,6 @@ public class Main {
         int a = in.nextInt();
         int b = in.nextInt();
         in.close();
-        System.out.println(a + b);
+        System.out.println(a - b);
     }
 }
