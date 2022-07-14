@@ -1,8 +1,8 @@
 package BOJ_Sol10951;
 import java.util.Scanner;
 
-public class main {
-    public static void main(String[] args){
+public class Main {
+    public static void Main(String[] args){
         Scanner in = new Scanner(System.in);
 
         while(in.hasNextInt()){
