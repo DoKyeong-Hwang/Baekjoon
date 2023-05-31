@@ -1,4 +1,6 @@
 package BOJ_Sol10430;
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +11,11 @@ public class Main {
         int C = in.nextInt();
         in.close();
 
-        System.out.println((A + B) % C);
+
+        System.out.println((A + B)  % C);
         System.out.println(((A % C) + (B % C)) % C);
         System.out.println((A * B) % C);
         System.out.println(((A % C) * (B % C)) % C);
+
     }
 }
